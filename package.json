@@ -1,0 +1,27 @@
+{
+  "name": "salesforce-postgres-sync",
+  "version": "1.0.0",
+  "description": "Two-way synchronization of customer and contact records between Salesforce and PostgreSQL",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "test": "tsx tests/index.test.ts"
+  },
+  "keywords": [
+    "salesforce",
+    "sync",
+    "two-way",
+    "outbox",
+    "rate-limiting"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.17.19",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3"
+  }
+}
